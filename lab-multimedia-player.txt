@@ -1,0 +1,49 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Multimedia Hub</title>
+</head>
+<body>
+
+  <h1>Welcome to Jordan's Multimedia Player</h1>
+
+  <!-- Audio Section -->
+  <section>
+    <h2>Relaxing Tune: Sailing Away</h2>
+    <audio controls aria-label="Relaxing background music">
+      <source src="https://cdn.freecodecamp.org/curriculum/js-music-player/sailing-away.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </section>
+
+  <!-- Video Section -->
+  <section>
+    <h2>Video Lesson: Understanding map()</h2>
+    <video controls width="600" aria-label="Educational video explaining the JavaScript map method">
+      <source src="https://cdn.freecodecamp.org/curriculum/labs/What is the map method and how does it work.mp4" type="video/mp4">
+      <track 
+        src="https://cdn.freecodecamp.org/curriculum/labs/What%20is%20the%20map%20method%20and%20how%20does%20it%20work.vtt" 
+        kind="subtitles" 
+        srclang="en" 
+        label="English Subtitles">
+      Your browser does not support the video element.
+    </video>
+  </section>
+
+  <!-- Transcript Section -->
+  <section>
+    <h2>Transcript</h2>
+    <p>
+      In this lesson, we’ll explore the JavaScript <code>map()</code> method. The <code>map()</code> method is used to apply a function to each element in an array and return a new array with the results. It does not modify the original array. For example, if you want to double every number in an array, <code>map()</code> is a perfect choice.
+    </p>
+  </section>
+
+</body>
+</html>
+
+** end of index.html **
+
